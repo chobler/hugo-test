@@ -1,6 +1,9 @@
 #!/bin/sh
 
-apt-get update -y || true
-yum update -y || true
+echo $PWD
+
+# env
+
+# find / 
 
 hugo --theme=hyde
